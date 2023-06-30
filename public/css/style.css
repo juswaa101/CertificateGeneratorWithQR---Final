@@ -1,0 +1,136 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+}
+
+i {
+     vertical-align: middle;
+     font-size: 1.7rem;
+     margin-right: 0.5rem;
+}
+
+.by {
+     vertical-align: middle;
+     font-size: 1.3rem !important;
+     margin-right: 0.5rem;
+}
+
+.login {
+     color: #ffffff1d;
+     transition: ease-in-out 0.2s;
+}
+
+.login:hover {
+     color: #d7d7d7;
+}
+
+.nav {
+     padding: 0.8rem 0;
+     width: 100%;
+     background-color: rgb(0, 0, 100);
+     color: #FFFFFF;
+     border-bottom: 5px solid #FEDF46; 
+}
+
+.nav > div {
+     padding-left: 5rem;
+     padding-right: 5rem;
+}
+
+.add {
+     margin: 2rem 5rem !important;
+}
+
+.form-control {
+     border-radius: 0 !important;
+     transition: ease-in-out 0.2s !important;
+}
+
+.form-control:focus {
+     background-color: #f8f8f8 !important;
+     box-shadow: none !important;
+     border: 1px solid rgb(0, 0, 100) !important;
+}
+
+.btn {
+     color: #FFFFFF !important;
+     border-radius: 0 !important;
+     margin-right: 0.5rem;
+     padding-left: 1.rem !important;
+     padding-right: 1rem !important;
+}
+
+.btn-primary {
+     background-color: rgb(0, 0, 100) !important;
+     border-color: rgb(0, 0, 100) !important;
+}
+
+.btn-primary2 {
+     background-color: #FEDF46 !important;
+     border-color: #FEDF46 !important;
+}
+
+.btn:focus {
+     box-shadow: none !important;
+}
+
+.entry {
+     margin: 2rem 5rem !important;
+}
+
+.entry-list {
+     text-decoration: none;
+     color: #000000;
+     transition: ease-in-out 0.2s;
+}
+
+.entry-list:hover {
+     background-color: #d7d7d7;
+     text-decoration: none;
+}
+
+.footer-container {
+     margin-top: 25rem;
+     padding: 1rem 5rem;
+     background: #363636;
+     display: flex;
+     justify-content: space-between;
+     align-items: start;
+     flex-flow: row wrap;
+}
+
+.footer-container2 {
+     margin-top: 10rem;
+     padding: 1rem 5rem;
+     background: #363636;
+     display: flex;
+     justify-content: space-between;
+     align-items: start;
+     flex-flow: row wrap;
+}
+
+.footer-text {
+     color: #FFFFFF;
+     font-size: 0.8rem;
+}
+
+.dev-container {
+     display: flex;
+     justify-content: flex-start;
+     align-items: start;
+}
+
+.dev-container > div:first-child {
+     margin-right: 1.5rem;
+}
+
+.note {
+     color: red;
+     font-size: 0.7rem;
+}
+
+.form-container {
+     background-color: #FFFFFF;
+     padding: 3rem;
+}
